@@ -11,7 +11,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  * @ORM\Table(name="analisis")
  * @ORM\Entity(repositoryClass="PatientBundle\Repository\AnalisisRepository")
  */
-class Analisis
+class Analisis implements \JsonSerializable
 {
     /**
      * @var int
@@ -29,10 +29,10 @@ class Analisis
      */
     private $name;
 
-/**
+     /**
      * @var ArrayCollection
      *
-     * @ORM\ManyToMany(targetEntity="Patient" , inversedBy="analisis")
+     * @ORM\ManyToMany(targetEntity="Patient" , mappedBy="analisis")
      * @ORM\JoinTable(name="patient_analisis")
      */
     private $patients=null;
@@ -83,6 +83,14 @@ class Analisis
 
     public function __toString(){
         return $this->name;
+    }
+
+    public function jsonSerialize()
+    {
+        return [
+            'id' => $this->getId(),
+            'name' => $this->getName()
+        ];
     }
 }
 

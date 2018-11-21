@@ -39,7 +39,7 @@ class PatientApiController extends Controller
     {
         $patient = new Patient();
         $form = $this->createForm(
-            'PatientBundle\Form\PatientApiType',
+            'PatientBundle\Form\PatientType',
             $patient,
             [
                 'csrf_protection' => false

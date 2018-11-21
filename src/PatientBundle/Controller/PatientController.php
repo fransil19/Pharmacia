@@ -25,7 +25,6 @@ class PatientController extends Controller
         $em = $this->getDoctrine()->getManager();
 
         $patients = $em->getRepository('PatientBundle:Patient')->findAll();
-
         return $this->render('patient/index.html.twig', array(
             'patients' => $patients,
         ));
