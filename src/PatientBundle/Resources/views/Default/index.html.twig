@@ -1,1 +1,21 @@
-Hello World!
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <article class="grid-container" style="width: 600px">
+        <br>
+        <div class="text-left">
+            <h2 style="color: #0088CC"><i>Pharmacia Principal Menu</i></h2>
+            <hr>
+        </div>
+        <br>
+        <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-4">
+            <div class="cell">
+            <ul class="vertical menu" style="width: 500px">
+                <li><a href="{{ path('patient_index') }}" class="button expand primary">Patient Section</a></li>
+                <li><a href="{{ path('analisis_index') }}" class="button expand primary">Analysis Section</a></li>
+                <li><a href="#" class="button expand primary">Contact</a></li>
+            </ul>
+            </div>
+        </div>
+    </article>
+{% endblock %}

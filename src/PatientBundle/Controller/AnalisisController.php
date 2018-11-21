@@ -24,10 +24,10 @@ class AnalisisController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $analises = $em->getRepository('PatientBundle:Analisis')->findAll();
+        $analisis = $em->getRepository('PatientBundle:Analisis')->findAll();
 
         return $this->render('analisis/index.html.twig', array(
-            'analises' => $analises,
+            'analisis' => $analisis,
         ));
     }
 
@@ -79,7 +79,7 @@ class AnalisisController extends Controller
      * @Route("/{id}/edit", name="analisis_edit")
      * @Method({"GET", "POST"})
      */
-    public function editAction(Request $request, Analisis $analisi)
+    public function editAction(Request $request, Analisis $analisis)
     {
         $deleteForm = $this->createDeleteForm($analisis);
         $editForm = $this->createForm('PatientBundle\Form\AnalisisType', $analisis);

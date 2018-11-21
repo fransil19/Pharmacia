@@ -1,21 +1,25 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Analisis edit</h1>
+    <br>
+    <article class="grid-container" style="width: 600px">
+        <br>
+        <div class="text-left">
+            <h2 style="color: #0088CC"><i>Analysis Edit</i></h2>
+            <hr>
+        </div>
 
-    {{ form_start(edit_form) }}
-        {{ form_widget(edit_form) }}
-        <input type="submit" value="Edit" />
-    {{ form_end(edit_form) }}
-
-    <ul>
-        <li>
-            <a href="{{ path('analisis_index') }}">Back to the list</a>
-        </li>
-        <li>
+        {{ form_start(edit_form) }}
+            {{ form_widget(edit_form) }}
+            <input type="submit" value="Edit" class="button expanded warning"/>
+        {{ form_end(edit_form) }}
+        <div>
+        <a href="{{ path('analisis_index') }}" class="button expanded primary">Back to the list</a>
+        </div>
+        <div>
             {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
+            <input type="submit" value="Delete" class="button expanded alert">
             {{ form_end(delete_form) }}
-        </li>
-    </ul>
+        </div>
+    </article>
 {% endblock %}

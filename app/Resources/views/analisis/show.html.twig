@@ -1,32 +1,31 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Analisis</h1>
-
-    <table>
-        <tbody>
-            <tr>
-                <th>Id</th>
-                <td>{{ analisis.id }}</td>
-            </tr>
-            <tr>
-                <th>Name</th>
-                <td>{{ analisis.name }}</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <ul>
-        <li>
-            <a href="{{ path('analisis_index') }}">Back to the list</a>
-        </li>
-        <li>
-            <a href="{{ path('analisis_edit', { 'id': analisis.id }) }}">Edit</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
-    </ul>
+    <br>
+    <article class="grid-container" style="width: 600px">
+        <br>
+        <div class="text-left">
+            <h2 style="color: #0088CC"><i>Analysis</i></h2>
+            <hr>
+        </div>
+        <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-4" style="padding-left: 15px;padding-right: 15px">
+            <table >
+                <tbody>
+                    <tr>
+                        <th>Id</th>
+                        <td>{{ analisis.id }}</td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td>{{ analisis.name }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div><a href="{{ path('analisis_index') }}" class="button expanded primary">Back to the list</a></div>
+        <div><a href="{{ path('analisis_edit', { 'id': analisis.id }) }}" class="button expanded warning">Edit</a></div>
+        <div>{{ form_start(delete_form) }}
+            <input type="submit" value="Delete" class="button expanded alert">
+            {{ form_end(delete_form) }}</div>
+    </article>
 {% endblock %}

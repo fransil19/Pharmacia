@@ -14,17 +14,16 @@
             <div class="top-bar">
                 <div class="top-bar-left">
                     <ul class="dropdown menu" data-dropdown-menu>
-                        <li class="menu-text">Pharmacia</li>
+                        <li><a href="{{path('index')}}"><strong>Pharmacia</strong></a></li>
                         <li><a href="{{path('patient_index')}}">Patients</a></li>
                         <li><a href="{{path('analisis_index')}}">Analisis</a></li>
-                        <li><a href="#0">Contacto</a></li>
-                        <li><a href="#0">Carrito de Compras</a></li>
+                        <li><a href="#0">Contact</a></li>
                     </ul>
                 </div>
                 <div class="top-bar-right">
                     <ul class="menu">
-                        <li><form action="#" method="get" placeholder="Buscar"></li>
-                        <li><input type="text" name="busqueda" class="form-control" placeholder="Buscar"></li>
+                        <li><form action="{{path('listOfProducts')}}" method="get" placeholder="Search"></li>
+                        <li><input type="text" name="busqueda" class="form-control" placeholder="Search"></li>
                         <li><button type="submit" class="button">Buscar</button></li>                            
                         <li></form></li>
                     </ul>

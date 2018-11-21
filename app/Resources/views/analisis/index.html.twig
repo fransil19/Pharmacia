@@ -1,39 +1,36 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Analises list</h1>
+<article class="grid-container">
+    <br>
+    <div class="text-left">
+        <h2 style="color: #0088CC"><i>Analysis List</i></h2>
+        <div>
+            <a href="{{ path('analisis_new') }}" class="button primary">Create a new Analysis</a>
+        </div>
+        <hr>
+    </div>
+    <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-4">
+        {% for analise in analisis %}
+        <div class="cell" style="margin-right: 5px">
+            <div class="card" style="width: 250px;">
+                <div class="card-divider">
+                    <a href="{{ path('analisis_show', { 'id': analise.id }) }}"><h5>{{ analise.id }}</h5></a>
+                </div>
+                <div class="card-section">
+                    <div>Name: <span>{{ analise.name }}</span></div>
+                    <br>
+                    <div class="card center"><a href="{{ path('analisis_show', { 'id': analise.id }) }}" class="button primary">Show</a></div>
+                    <div class="card center"><a href="{{ path('analisis_edit', { 'id': analise.id }) }}" class="button warning">Edit</a></div>
+                </div>
+            </div>
+        </div>
+        {%endfor%}
+    </div>
+    <hr>
+    <div>
+        <a href="{{ path('analisis_new') }}" class="button primary">Create a new Analysis</a>
+    </div>
+</article>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for analisis in analises %}
-            <tr>
-                <td><a href="{{ path('analisis_show', { 'id': analisis.id }) }}">{{ analisis.id }}</a></td>
-                <td>{{ analisis.name }}</td>
-                <td>
-                    <ul>
-                        <li>
-                            <a href="{{ path('analisis_show', { 'id': analisis.id }) }}">show</a>
-                        </li>
-                        <li>
-                            <a href="{{ path('analisis_edit', { 'id': analisis.id }) }}">edit</a>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-
-    <ul>
-        <li>
-            <a href="{{ path('analisis_new') }}">Create a new analisis</a>
-        </li>
-    </ul>
 {% endblock %}
