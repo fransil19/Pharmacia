@@ -39,28 +39,28 @@ class Patient implements \JsonSerializable
 
     /**
      * @var int
-     *
+     *@Assert\NotBlank
      * @ORM\Column(name="age", type="integer")
      */
     private $age;
 
     /**
      * @var string
-     *
+     *@Assert\NotBlank
      * @ORM\Column(name="idNumber", type="string", length=255)
      */
     private $idNumber;
 
     /**
      * @var string
-     *
+     *@Assert\NotBlank
      * @ORM\Column(name="idType", type="string", length=255)
      */
     private $idType;
 
     /**
      * @var string
-     *
+     *@Assert\NotBlank
      * @ORM\Column(name="observations", type="string", length=255)
      */
     private $observations;

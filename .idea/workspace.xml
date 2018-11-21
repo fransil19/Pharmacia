@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2882628-7dec-41bf-8537-f283044f5480" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imsomnia.json" beforeDir="false" afterPath="$PROJECT_DIR$/Imsomnia.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PatientBundle/Controller/PatientApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatientBundle/Controller/PatientApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PatientBundle/Controller/PatientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatientBundle/Controller/PatientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PatientBundle/Entity/Analisis.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatientBundle/Entity/Analisis.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PatientBundle/Entity/Patient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatientBundle/Entity/Patient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PatientBundle/Form/PatientApiType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatientBundle/Form/PatientApiType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +39,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="240" />
+          <entry key="php" value="330" />
           <entry key="twig" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="240" />
+          <entry key="PHP" value="330" />
           <entry key="Twig" value="18" />
         </counts>
       </usages-collector>
@@ -56,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PatientBundle/Entity/Patient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4182">
-              <caret line="255" column="5" selection-start-line="244" selection-start-column="4" selection-end-line="255" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
               <folding>
                 <element signature="e#40#72#0#PHP" expanded="true" />
               </folding>
@@ -71,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PatientBundle/Entity/Analisis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-544">
               <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding>
                 <element signature="e#40#72#0#PHP" expanded="true" />
@@ -101,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PatientBundle/Controller/PatientApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+            <state relative-caret-position="272">
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding>
                 <element signature="e#44#101#0#PHP" expanded="true" />
               </folding>
@@ -116,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PatientBundle/Controller/PatientController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="66" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="66" />
+            <state relative-caret-position="578">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,12 +146,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/PatientBundle/Controller/PatientController.php" />
         <option value="$PROJECT_DIR$/src/PatientBundle/Form/PatientApiType.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/patient/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/PatientBundle/Controller/PatientApiController.php" />
-        <option value="$PROJECT_DIR$/src/PatientBundle/Entity/Patient.php" />
         <option value="$PROJECT_DIR$/src/PatientBundle/Entity/Analisis.php" />
+        <option value="$PROJECT_DIR$/src/PatientBundle/Entity/Patient.php" />
+        <option value="$PROJECT_DIR$/src/PatientBundle/Controller/PatientApiController.php" />
+        <option value="$PROJECT_DIR$/src/PatientBundle/Controller/PatientController.php" />
       </list>
     </option>
   </component>
@@ -295,12 +292,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542755996282</updated>
-      <workItem from="1542755997512" duration="5663000" />
+      <workItem from="1542755997512" duration="8217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5663000" />
+    <option name="totallyTimeSpent" value="8217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -349,18 +346,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PatientBundle/Controller/PatientController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="66" />
+        <state relative-caret-position="578">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PatientBundle/Entity/Patient.php">
+    <entry file="file://$PROJECT_DIR$/src/PatientBundle/Controller/PatientApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4182">
-          <caret line="255" column="5" selection-start-line="244" selection-start-column="4" selection-end-line="255" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
           <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
+            <element signature="e#44#101#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PatientBundle/Form/PatientType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -374,16 +378,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PatientBundle/Form/PatientType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PatientBundle/Entity/Analisis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-544">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
             <element signature="e#40#72#0#PHP" expanded="true" />
@@ -391,12 +388,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PatientBundle/Controller/PatientApiController.php">
+    <entry file="file://$PROJECT_DIR$/src/PatientBundle/Entity/Patient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+        <state relative-caret-position="85">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding>
-            <element signature="e#44#101#0#PHP" expanded="true" />
+            <element signature="e#40#72#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

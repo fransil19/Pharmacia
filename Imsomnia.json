@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2018-11-20T20:55:20.940Z",
+	"__export_date": "2018-11-21T01:37:28.032Z",
 	"__export_source": "insomnia.desktop.app:v6.2.0",
 	"resources": [
 		{
@@ -46,51 +46,62 @@
 			"_type": "request_group"
 		},
 		{
-			"_id": "req_91576ae4441b48038e849a5e2a5ed09b",
+			"_id": "req_5f18dbf3b75044b7a5a35650ec228965",
 			"authentication": {},
 			"body": {
 				"mimeType": "multipart/form-data",
 				"params": [
 					{
-						"id": "pair_f568d308987a42bea7c318badee71990",
+						"disabled": false,
+						"id": "pair_e647988fc3764730b33c951925e34de6",
 						"name": "name",
 						"value": "Carlos"
 					},
 					{
-						"id": "pair_99bc18cef57740b7b41805365a0d4475",
+						"id": "pair_440bee930948497e8295f7584a8b822d",
 						"name": "lastname",
 						"value": "Sanchez"
 					},
 					{
-						"id": "pair_8509228fdf12487db4bfc852f80837cc",
-						"name": "idNumber",
-						"value": "35687956"
+						"id": "pair_7c4d3746560b4c09b5ff7307279ab99d",
+						"name": "age",
+						"value": "25"
 					},
 					{
-						"id": "pair_8ddde3aa83714b10b794cce9656e0c2a",
+						"id": "pair_5607427bdd284b579425128c82522bff",
+						"name": "idNumber",
+						"value": "35468484"
+					},
+					{
+						"id": "pair_125f3ef4429947d0846688b0218e82d6",
 						"name": "idType",
 						"value": "DNI"
 					},
 					{
-						"id": "pair_a8733e73e17146dc93add819aa8e5ce7",
-						"name": "observation",
-						"value": "asdfsadfsadf"
+						"id": "pair_52a54e6cde1d4a77aa9fd536030b9524",
+						"name": "observations",
+						"value": "ssdgfdfg"
+					},
+					{
+						"id": "pair_90434be7fbc445db90145a333dfa211c",
+						"name": "analisis[]",
+						"value": "numero del analisis"
 					}
 				]
 			},
-			"created": 1542746003634,
+			"created": 1542759738189,
 			"description": "",
 			"headers": [
 				{
-					"id": "pair_28b254f13af04d14ae7a9f489a7b15dc",
+					"id": "pair_cd0cc6eea1734ad08976a4035450934f",
 					"name": "Content-Type",
 					"value": "multipart/form-data"
 				}
 			],
 			"isPrivate": false,
-			"metaSortKey": -1542746003634,
+			"metaSortKey": -1542746012237,
 			"method": "POST",
-			"modified": 1542746912245,
+			"modified": 1542764225197,
 			"name": "Create",
 			"parameters": [],
 			"parentId": "fld_9a90e152c4444f9385ab1158950dd2f2",
@@ -100,7 +111,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "http://127.0.0.1:8000/patient/api/patient/new",
+			"url": "http://127.0.0.1:8000/patients/api/patient/new",
 			"_type": "request"
 		}
 	]

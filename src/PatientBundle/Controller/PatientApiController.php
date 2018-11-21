@@ -32,14 +32,14 @@ class PatientApiController extends Controller
     /**
      * Creates a new patient entity.
      *
-     * @Route("patient/api/patient/new", name="patient_api_patient_new")
+     * @Route("patients/api/patient/new", name="patients_api_patient_new")
      * @Method("POST")
      */
     public function newAction(Request $r)
     {
         $patient = new Patient();
         $form = $this->createForm(
-            'PatientBundle\Form\PatientType',
+            'PatientBundle\Form\PatientApiType',
             $patient,
             [
                 'csrf_protection' => false

@@ -46,7 +46,6 @@ class PatientController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->persist($patient);
             $em->flush();
-
             return $this->redirectToRoute('patient_show', array('id' => $patient->getId()));
         }
 
